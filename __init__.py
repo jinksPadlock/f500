@@ -14,7 +14,7 @@ if __name__ == '__main__':
     driver = webdriver.Firefox()
     driver.get(url)
 
-    # Force page to scroll to ~500 items
+    # Force page to scroll to bottom
     i = 0
     while i < 22:
         rand = random.uniform(0.5, 2)
