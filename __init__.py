@@ -45,7 +45,7 @@ if __name__ == '__main__':
         revenueInMillions = spans[2].get_text()
 
         # Get Company Page
-        if companyURL != '' and int(rank) >= 902:
+        if companyURL != '' # and int(rank) >= 902:
             driver.get(companyURL)
             companyRand = random.uniform(5, 20)
             time.sleep(companyRand)
